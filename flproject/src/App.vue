@@ -19,31 +19,51 @@
               <h4>Character1</h4>
               <img src="" alt="image1" height="200" width="200" />
               <p>Character1 story summary</p>
-              <div class="btn"><button>Remove Character1</button></div>
+              <div class="btn">
+                <a class="button4" style="background-color: #f14e4e"
+                  >Remove Character</a
+                >
+              </div>
             </div>
             <div class="Character">
               <h4>Character2</h4>
               <img src="" alt="image2" height="200" width="200" />
               <p>Character2 story summary</p>
-              <div class="btn"><button>Remove Character2</button></div>
+              <div class="btn">
+                <a class="button4" style="background-color: #f14e4e"
+                  >Remove Character</a
+                >
+              </div>
             </div>
             <div class="Character">
               <h4>Character3</h4>
               <img src="" alt="image3" height="200" width="200" />
               <p>Character3 story summary</p>
-              <div class="btn"><button>Remove Character3</button></div>
+              <div class="btn">
+                <a class="button4" style="background-color: #f14e4e"
+                  >Remove Character</a
+                >
+              </div>
             </div>
             <div class="Character">
               <h4>Character4</h4>
               <img src="" alt="image4" height="200" width="200" />
               <p>Character4 story summary</p>
-              <div class="btn"><button>Remove Character4</button></div>
+              <div class="btn">
+                <a class="button4" style="background-color: #f14e4e"
+                  >Remove Character</a
+                >
+              </div>
             </div>
             <div class="Character">
               <h4>Character5</h4>
               <img src="" alt="image5" height="200" width="200" />
               <p>Character5 story summary</p>
-              <div class="btn"><button>Remove Character5</button></div>
+              <div class="btn">
+                <a class="button4" style="background-color: #f14e4e"
+                  >Remove Character</a
+                >
+              </div>
             </div>
           </div>
         </section>
@@ -53,24 +73,35 @@
     <!-- Character Search -->
     <div class="wrapper" id="charsearch">
       <div class="input-data">
-        <input type="text" />
+        <input type="text" value="" />
         <label>Character Searching</label>
       </div>
     </div>
 
     <!-- Character Display -->
-    <section id="chardis">
-      <div>
-        <img src="" alt="" />
+    <section class="dis" id="chardis">
+      <div class="dis-img">
+        <img src="" alt="character image" height="350" width="350" />
+      </div>
+      <div class="dis-charname">
         <h3>Character Name</h3>
+      </div>
+      <div class="dis-storylist">
         <h4>Story List</h4>
+      </div>
+      <div class="dis-storysum">
         <h4>Story Summary</h4>
+      </div>
+      <div class="dis-but">
         <button id="pick-char-bot">Pick as soccer team member</button>
       </div>
     </section>
 
     <!-- Footer -->
     <footer>
+      <div class="worlds">
+        <quotes><i>"To create your best 5-aside Marvel Soccer Team"</i></quotes>
+      </div>
       <!--
       <div class="button">
         <h1>button</h1>
@@ -91,6 +122,7 @@ export default {
   components: {},
 };
 </script>
+
 
 
 <style>
@@ -119,7 +151,40 @@ img {
   padding-bottom: 15px;
 }
 
-button {
+.btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.worlds {
+  padding-top: 30px;
+  display: flex;
+  /* 水平置中 */
+  justify-content: center;
+  /* 垂直置中 */
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.dis {
+  display: grid;
+}
+
+a.button4 {
+  padding: 0.3em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  border: 0.16em solid rgba(255, 255, 255, 0);
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 250;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+a.button4 :hover {
+  border-color: rgb(255, 255, 255);
 }
 
 #mainNav {
@@ -158,6 +223,7 @@ button {
   border: none;
   font-size: 17px;
   border-bottom: 2px solid silver;
+  font-display: center;
 }
 
 .wrapper .input-data label {
@@ -178,10 +244,42 @@ button {
   padding-left: 80px;
 }
 
+.dis {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+  grid-template-areas:
+    "img charname"
+    "img storylist"
+    "img dis-storysum"
+    "img dis-storysum"
+    "dis-but dis-but";
+}
+
+.dis-img {
+  grid-area: img;
+}
+
+.dis-charname {
+  grid-area: charname;
+}
+
+.dis-storylist {
+  grid-area: storylist;
+}
+
+.dis-storysum {
+  grid-area: dis-storysum;
+}
+
+.dis-but {
+  grid-area: dis-but;
+}
+
 header {
   height: auto;
-  border-bottom: 2px solid rgba(255, 0, 0, 0.637);
   text-align: center;
+  border-bottom: 2px solid rgba(255, 0, 0, 0.637);
 }
 
 body {
@@ -192,9 +290,13 @@ body {
 }
 
 footer {
-  display: flex;
-  background-color: red;
   height: 100px;
+  border-top: 2px solid rgba(255, 0, 0, 0.637);
+}
+
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .container {

@@ -93,7 +93,7 @@
         <h4>Story Summary</h4>
       </div>
       <div class="dis-but">
-        <button id="pick-char-bot">Pick as soccer team member</button>
+        <a class="button4" style="background-color: #f14e4e">Pick Character</a> 
       </div>
     </section>
 

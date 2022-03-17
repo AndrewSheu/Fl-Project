@@ -122,17 +122,11 @@
       <div class="worlds">
         <quotes><i>"To create your best 5-aside Marvel Soccer Team"</i></quotes>
       </div>
-      <!--
-      <div class="button">
-        <h1>button</h1>
-        <div class="icon">
-          <i class="fa-solid fa-delete-left"></i>
-          </div>
-      </div>
-      -->
     </footer>
   </div>
 </template>
+
+
 
 
 
@@ -142,11 +136,6 @@ export default {
   components: {},
 };
 </script>
-
-
-
-
-
 
 
 

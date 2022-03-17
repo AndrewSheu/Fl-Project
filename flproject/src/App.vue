@@ -4,7 +4,7 @@
     <header class="navbar container" id="mainNav">
       <img
         src="https://www.thetruecolors.org/wp-content/uploads/2021/02/marvel-logo-header-1.jpg"
-        height="100"
+        height="180"
       />
       <h1>Marvel soccer Team</h1>
     </header>
@@ -12,88 +12,108 @@
     <!-- Team Display-->
     <body id="teamchar">
       <div>
-        <h3>Your marvel soccer team</h3>
-        <section>
-          <div class="table">
-            <div class="Character">
-              <h4>Character1</h4>
-              <img src="" alt="image1" height="200" width="200" />
-              <p>Character1 story summary</p>
-              <div class="btn">
-                <a class="button4" style="background-color: #f14e4e"
-                  >Remove Character</a
-                >
-              </div>
-            </div>
-            <div class="Character">
-              <h4>Character2</h4>
-              <img src="" alt="image2" height="200" width="200" />
-              <p>Character2 story summary</p>
-              <div class="btn">
-                <a class="button4" style="background-color: #f14e4e"
-                  >Remove Character</a
-                >
-              </div>
-            </div>
-            <div class="Character">
-              <h4>Character3</h4>
-              <img src="" alt="image3" height="200" width="200" />
-              <p>Character3 story summary</p>
-              <div class="btn">
-                <a class="button4" style="background-color: #f14e4e"
-                  >Remove Character</a
-                >
-              </div>
-            </div>
-            <div class="Character">
-              <h4>Character4</h4>
-              <img src="" alt="image4" height="200" width="200" />
-              <p>Character4 story summary</p>
-              <div class="btn">
-                <a class="button4" style="background-color: #f14e4e"
-                  >Remove Character</a
-                >
-              </div>
-            </div>
-            <div class="Character">
-              <h4>Character5</h4>
-              <img src="" alt="image5" height="200" width="200" />
-              <p>Character5 story summary</p>
-              <div class="btn">
-                <a class="button4" style="background-color: #f14e4e"
-                  >Remove Character</a
-                >
-              </div>
+        <h2>Your marvel soccer team</h2>
+        <div class="table">
+          <div class="Character">
+            <h4>Character1</h4>
+            <img src="" alt="image1" height="200" width="200" />
+            <p>Character1 story summary</p>
+            <div class="btn">
+              <a class="button4" style="background-color: #f14e4e"
+                >Remove Character</a
+              >
             </div>
           </div>
-        </section>
+          <div class="Character">
+            <h4>Character2</h4>
+            <img src="" alt="image2" height="200" width="200" />
+            <p>Character2 story summary</p>
+            <div class="btn">
+              <a class="button4" style="background-color: #f14e4e"
+                >Remove Character</a
+              >
+            </div>
+          </div>
+          <div class="Character">
+            <h4>Character3</h4>
+            <img src="" alt="image3" height="200" width="200" />
+            <p>Character3 story summary</p>
+            <div class="btn">
+              <a class="button4" style="background-color: #f14e4e"
+                >Remove Character</a
+              >
+            </div>
+          </div>
+          <div class="Character">
+            <h4>Character4</h4>
+            <img src="" alt="image4" height="200" width="200" />
+            <p>Character4 story summary</p>
+            <div class="btn">
+              <a class="button4" style="background-color: #f14e4e"
+                >Remove Character</a
+              >
+            </div>
+          </div>
+          <div class="Character">
+            <h4>Character5</h4>
+            <img src="" alt="image5" height="200" width="200" />
+            <p>Character5 story summary</p>
+            <div class="btn">
+              <a class="button4" style="background-color: #f14e4e"
+                >Remove Character</a
+              >
+            </div>
+          </div>
+        </div>
       </div>
+      <section class="but-item">
+        <div>
+          <a class="button4" style="background-color: rgba(255, 43, 43, 0.548)"
+            >Sharing To Midea</a
+          >
+        </div>
+        <div>
+          <a class="button4" style="background-color: rgba(255, 43, 43, 0.548)"
+            >Remove All</a
+          >
+        </div>
+      </section>
     </body>
 
     <!-- Character Search -->
-    <div class="wrapper" id="charsearch">
-      <div class="input-data">
-        <input type="text" value="" />
-        <label>Character Searching</label>
+    <section>
+      <div class="wrapper" id="charsearch">
+        <div class="input-data">
+          <input type="text" value="" />
+          <label>Character Searching</label>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Character Display -->
-    <section class="dis" id="chardis">
-      <div class="dis-img">
-        <img src="" alt="character image" height="350" width="350" />
-      </div>
-      <div class="dis-charname">
-        <h3>Character Name</h3>
-      </div>
-      <div class="dis-storylist">
-        <h4>Story List</h4>
-      </div>
-      <div class="dis-storysum">
-        <h4>Story Summary</h4>
-      </div>
-      <div class="dis-but">
-        <a class="button4" style="background-color: #f14e4e">Pick Character</a> 
+    <!-- Character Display-->
+    <section id="chardis">
+      <div class="dis">
+        <div class="dis-img space">
+          <img src="" alt="character image" height="350" width="350" />
+        </div>
+        <div class="dis-charname space">
+          <h2>Character Name</h2>
+          MOON KNIGHT
+        </div>
+        <div class="dis-storylist space">
+          <h4>Story List</h4>
+          On story On Comics
+        </div>
+        <div class="dis-storysum space">
+          <h4>Story Summary</h4>
+          Struggling with multiple personalities and amoral inclinations, Marc
+          Spector fights on against all odds as the cloaked avenger Moon Knight.
+        </div>
+        <div class="dis-but space">
+          <a class="button4" style="background-color: #f14e4e"
+            >Pick Character</a
+          >
+        </div>
       </div>
     </section>
 
@@ -125,6 +145,14 @@ export default {
 
 
 
+
+
+
+
+
+
+
+
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
 
@@ -140,7 +168,7 @@ html {
   box-sizing: border-box;
 }
 
-h3 {
+h2 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -151,23 +179,50 @@ img {
   padding-bottom: 15px;
 }
 
-.btn {
-  padding-top: 10px;
-  padding-bottom: 10px;
+header {
+  height: auto;
+  text-align: center;
+  border-bottom: 2px solid rgba(255, 0, 0, 0.637);
 }
 
-.worlds {
-  padding-top: 30px;
-  display: flex;
-  /* 水平置中 */
-  justify-content: center;
-  /* 垂直置中 */
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  text-align: center;
   align-content: center;
-  flex-wrap: wrap;
+  justify-self: center;
 }
 
-.dis {
-  display: grid;
+footer {
+  height: 100px;
+  border-top: 2px solid rgba(255, 0, 0, 0.637);
+}
+
+section {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#mainNav {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  transition: padding-top 0.3s padding-bottom 0.3s;
+  display: center;
+  align-content: center;
+}
+
+#teamchar {
+  height: 400px;
+  align-content: center;
+  text-align: center;
+}
+
+#charsearch {
+  display: inline-block;
+}
+
+#chardis {
+  display: inline-flex;
 }
 
 a.button4 {
@@ -187,22 +242,27 @@ a.button4 :hover {
   border-color: rgb(255, 255, 255);
 }
 
-#mainNav {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  transition: padding-top 0.3s padding-bottom 0.3s;
-  display: center;
-  align-content: center;
-}
-
-#teamchar {
-  height: 400px;
-  align-content: center;
+.container {
   text-align: center;
 }
 
-#charsearch {
-  display: inline-block;
+.btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.worlds {
+  padding-top: 30px;
+  display: flex;
+  /* 水平置中 */
+  justify-content: center;
+  /* 垂直置中 */
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.dis {
+  display: grid;
 }
 
 .wrapper {
@@ -237,14 +297,24 @@ a.button4 :hover {
   display: flex;
   align-content: center;
   padding-top: 25px;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 .Character {
   padding-left: 80px;
 }
 
+.but-item {
+  display: flex;
+  justify-content: center;
+}
+
 .dis {
+  width: 500;
+  height: 500;
+
+  display: flex;
+  box-shadow: 0px 0px 5px rgba(255, 43, 43, 0.479);
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr, 1fr, 1fr, 1fr;
@@ -270,36 +340,15 @@ a.button4 :hover {
 
 .dis-storysum {
   grid-area: dis-storysum;
+  width: 390px;
+  height: auto;
 }
 
 .dis-but {
   grid-area: dis-but;
 }
 
-header {
-  height: auto;
-  text-align: center;
-  border-bottom: 2px solid rgba(255, 0, 0, 0.637);
-}
-
-body {
-  font-family: "Lato", sans-serif;
-  text-align: center;
-  align-content: center;
-  justify-self: center;
-}
-
-footer {
-  height: 100px;
-  border-top: 2px solid rgba(255, 0, 0, 0.637);
-}
-
-section {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.container {
-  text-align: center;
+.space {
+  padding: 20px;
 }
 </style>

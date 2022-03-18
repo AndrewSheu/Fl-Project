@@ -15,51 +15,51 @@
         <h2>Your marvel soccer team</h2>
         <div class="table">
           <div class="Character">
-            <h4>Character1</h4>
+            <h4>Goalkeeper (GK)</h4>
             <img src="" alt="image1" height="200" width="200" />
             <p>Character1 story summary</p>
             <div class="btn">
-              <a class="button4" style="background-color: #f14e4e"
+              <a href="" class="button4" style="background-color: #f14e4e"
                 >Remove Character</a
               >
             </div>
           </div>
           <div class="Character">
-            <h4>Character2</h4>
+            <h4>Striker (ST)</h4>
             <img src="" alt="image2" height="200" width="200" />
             <p>Character2 story summary</p>
             <div class="btn">
-              <a class="button4" style="background-color: #f14e4e"
+              <a href="" class="button4" style="background-color: #f14e4e"
                 >Remove Character</a
               >
             </div>
           </div>
           <div class="Character">
-            <h4>Character3</h4>
+            <h4>Midfielder (MD)</h4>
             <img src="" alt="image3" height="200" width="200" />
             <p>Character3 story summary</p>
             <div class="btn">
-              <a class="button4" style="background-color: #f14e4e"
+              <a href="" class="button4" style="background-color: #f14e4e"
                 >Remove Character</a
               >
             </div>
           </div>
           <div class="Character">
-            <h4>Character4</h4>
+            <h4>Defender (DF)</h4>
             <img src="" alt="image4" height="200" width="200" />
             <p>Character4 story summary</p>
             <div class="btn">
-              <a class="button4" style="background-color: #f14e4e"
+              <a href="" class="button4" style="background-color: #f14e4e"
                 >Remove Character</a
               >
             </div>
           </div>
           <div class="Character">
-            <h4>Character5</h4>
+            <h4>Additional player</h4>
             <img src="" alt="image5" height="200" width="200" />
             <p>Character5 story summary</p>
             <div class="btn">
-              <a class="button4" style="background-color: #f14e4e"
+              <a href="" class="button4" style="background-color: #f14e4e"
                 >Remove Character</a
               >
             </div>
@@ -128,16 +128,14 @@
 
 
 
-
-
 <script>
 export default {
   name: "App",
-  components: {},
+  components: {
+
+  },
 };
 </script>
-
-
 
 
 

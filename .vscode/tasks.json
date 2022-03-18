@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "install",
+			"path": "flproject/",
+			"problemMatcher": [],
+			"label": "npm: install - flproject",
+			"detail": "install dependencies from package"
+		}
+	]
+}

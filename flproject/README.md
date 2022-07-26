@@ -1,4 +1,5 @@
-### flproject
+### FL Project
+#### This is short test for Junior Web Developer (Intern) role
 
 #### Project setup
 ```
